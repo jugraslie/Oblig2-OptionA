@@ -4,7 +4,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 div{
-    box-sizing: border-box;
+    
 }
 /*header*/
 header.homepage{
@@ -68,6 +68,17 @@ p {
     overflow: scroll;
     font-size: 15px;
 }
+p.text1{
+    position: absolute;
+    width: 33.3%;
+}
+
+.text1{
+    width: 33.3%;
+    background-color: whitesmoke;
+
+}
+
 /*boatlife*/
 .boatlife {
     display: flex;
@@ -77,7 +88,8 @@ p {
 }
 
 .bpics {
-    flex: 33.3%;
+    display: flex;
+    flex: 33.3;
     padding: 5px;
 }
 
@@ -89,6 +101,7 @@ p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 300;
+     width: 33.3%;
 }
 
 .btext2{
@@ -99,6 +112,7 @@ p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 300;
+     width: 33.3%;
 }
 
 .btext3{
@@ -109,6 +123,7 @@ p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 300;
+     width: 33.3%;
 
 }
 /*friends*/
@@ -120,7 +135,8 @@ p {
 }
 
 .fpics {
-    flex: 33.3%;
+    display: flex;
+    flex: 33.3;
     padding: 5px;
 
 }
@@ -133,6 +149,7 @@ p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 300;
+     width: 33.3%;
 }
 
 .ftext2{
@@ -143,6 +160,7 @@ p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 300;
+     width: 33.3%;
 }
 
 .ftext3{
@@ -153,6 +171,7 @@ p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 300;
+    width: 33.3%;
 
 }
 /*reflection*/
