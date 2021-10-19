@@ -1,6 +1,10 @@
-@media screen and (max-width: 481px){
+
 *{
+
     font-family: 'Montserrat', sans-serif;
+}
+div{
+    box-sizing: border-box;
 }
 /*header*/
 header.homepage{
@@ -73,10 +77,8 @@ p {
 }
 
 .bpics {
-    flex: 33.33%;
+    flex: 33.3%;
     padding: 5px;
-    width: auto;
-    height: auto;
 }
 
 .btext1{
@@ -118,10 +120,9 @@ p {
 }
 
 .fpics {
-    flex: 33.33%;
+    flex: 33.3%;
     padding: 5px;
-    width: auto;
-    height: auto;
+
 }
 
 .ftext1{
@@ -162,4 +163,4 @@ p.reflection{
     width: 100%;
     overflow: scroll;
     font-size: 25px;
-} }
+}
